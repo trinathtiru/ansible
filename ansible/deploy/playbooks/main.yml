@@ -1,0 +1,10 @@
+---
+- name: ping the ansiblehost servers
+  hosts: all
+  tasks:
+  - name: ping ansible host servers
+    ping:
+- name: Crete file
+  hosts: all
+  roles:
+  - createfile
